@@ -56,10 +56,100 @@ public class Main implements Directions{
    r.move();
    r.move();
    r.move();
+   r.turnLeft();
+   r.turnLeft();
+    r.turnLeft();
+   r.move();
+   r.turnLeft();
+   r.turnLeft();
+    r.turnLeft();
+    r.move();
+    r.putBeeper();
+    r.move();
+    r.turnLeft();
+    r.move();
+    r.putBeeper();
+    r.move();
+    r.turnLeft();
+   r.turnLeft();
+    r.turnLeft();
+    r.move();
+    r.putBeeper();
+    r.move();
+    r.turnLeft();
+    r.putBeeper();
+
+
+Robot s = new Robot(9,6,East,1000);
+
+    s.move();// move one step in the direction it is facing
+   s.putBeeper();
+   s.move();
+   s.putBeeper();
+   s.move();// move one step in the direction it is facing
+   s.putBeeper();
+   s.turnLeft();
+   s.turnLeft();
+   s.turnLeft();
+   s.move();
+   s.putBeeper();
+   s.move();
+   s.putBeeper();
+   s.turnLeft();
+   s.turnLeft();
+   s.turnLeft();
+   s.move();
+   s.putBeeper();
+   s.move();
+   s.putBeeper();
+   s.turnLeft();
+   s.turnLeft();
+   s.turnLeft();
+    s.move();
+   s.putBeeper();
+   s.move();
+   s.turnLeft();
+   s.turnLeft();
+  s.move();
+   s.putBeeper();
+   s.move();
+   s.putBeeper();
+   s.move();
+   s.putBeeper();
+   s.move();
+   s.putBeeper();
+   s.move();
+   s.putBeeper();
+   s.move();
+   s.putBeeper();
+   s.turnLeft();
+   s.turnLeft();
+  s.move();
+  s.move();
+  s.move();
+  s.move();
+  s.turnLeft();
+  s.turnLeft();
+   s.turnLeft();
+  s.move();
+  s.turnLeft();
+  s.turnLeft();
+   s.turnLeft();
+   s.move();
+   s.putBeeper();
+   s.move();
+   s.turnLeft();
+   s.move();
+   s.putBeeper();
+   s.move();
+   s.turnLeft();
+  s.turnLeft();
+   s.turnLeft();
+   s.move();
+   s.putBeeper();
+   s.move();
+   s.turnLeft();
+   s.putBeeper();
    
-
-  
-
-
   }
 }
